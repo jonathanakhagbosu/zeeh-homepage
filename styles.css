@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, a { 
+    font-family: 'Manrope', sans-serif;
+}
+
+/* font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.header-links a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+#hero-section {
+    background-color: #fff5ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 145px 42px 145px 90px;
+}
+
+.hero-text .red-text {
+    color: #ee6206
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87.77px;
+}
+
+.hero-text p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+#testimonials {
+    padding: 48px 81px 80px;
+    text-align: center;
+}
+
+.testimonials-images img {
+    padding: 0 15px;
+}
+
+#about {
+    background-color: #FBFBFB;
+    padding: 124px 66px 197px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.5px;
+}
+
+#about h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#about h6 {
+    font-family: "Manrope", "sans-serif";
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.about-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
+
+.about-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.box-in-about {
+    text-align: left;
+    padding: 45px 73px;
+    background-color: #F4F4F4;  
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#documentation {
+    background-color: #E5E7FF;
+    text-align: center;
+    padding: 132px 99px 142px 115px;
+}
+
+#documentation h5 {
+    color: #0D16EE;
+    font-size: 24px;
+}
+
+#documentation h4 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#documentation p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.documentation-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.documentation-buttons .button-left {
+    border-radius: 40px;
+    padding: 30px 70px;
+    color: #FFF;
+    background-color: #0D16EE;
+    border-style: solid;
+    font-family: "Manrope", "sans-serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.documentation-buttons .button-right {
+    border-radius: 40px;
+    padding: 30px 70px;
+    color: #0D16EE;
+    background-color: #fff;
+    font-family: "Manrope", "sans-serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+footer {
+    background-color: #fff;
+    padding: 0 20px 10px;   
+}
+
+.call-to-action {
+    background-color: #FADDCB;
+    border-radius: 20px;
+}
+
+.main-footer {
+    display: flex;
+}
+
+.main-footer .text {
+    display: flex;
+}
